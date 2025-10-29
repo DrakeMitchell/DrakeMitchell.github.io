@@ -55,6 +55,8 @@ footer {
 button {
     text-align: center;
     background-color: #4E6E87;
+    border-width: 3px;
+    border-color: #B7B4B8;
     width: 6em;
     height: 2em;
     color: white;
