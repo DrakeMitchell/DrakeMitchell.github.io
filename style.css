@@ -12,9 +12,11 @@ html {
 
 header {
     background-color: #333;
+    font-family: Doto;
+    font-size: 30px;
     color: white;
     text-align: center;
-    padding: 0.5em 0;
+    padding: 0.2em 0;
 }
 
 nav {
@@ -52,6 +54,16 @@ footer {
     margin-top: 30px;
 }
 
+li {
+    font-size:20px
+}
+
+#about {
+    display: flex;
+    column-gap: 5%;
+    font-size: 25px;
+}
+
 button {
     text-align: center;
     background-color: #4E6E87;
@@ -62,4 +74,9 @@ button {
     color: white;
     font-size: 20px;
     margin-right: 2em;
+}
+
+@font-face {
+    font-family: 'Doto';
+    src: url('Doto-SemiBold.ttf');
 }
