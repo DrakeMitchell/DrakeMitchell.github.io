@@ -22,6 +22,7 @@
 
 <section id="about">
     <h2>About Me</h2>
+    
     <p></p>
 </section>
 
@@ -37,57 +38,66 @@
     
     <ul>
         <!-- List from most to least important tabs for Personal, Software, Game Dev -->
+        <div>
+            <button onclick="All()">All</button>
+            <button onclick="Games()">Game Dev</button>
+            <button onclick="Software()">Software</button>
+            <button onclick="Solo()">Solo</button>
+        </div>
         
         <!-- Gator Hucker -->
-        <div id="Games" id="GD">
+        <div class="Games" class="GD">
             <li><strong>Gator Hucker:</strong> capstone</li>
             <img alt="Static Badge" src="https://img.shields.io/badge/Game%20Dev-purple">
         </div>
         
         <!-- AwwMageddon -->
-        <div id="Games" id="GD">
-            <li><strong>AwwMageddon:</strong> 325 Course</li>
-            <iframe frameborder="0" src="https://itch.io/embed/3161137?linkback=true&amp;link_color=52be34&amp;border_color=8e00de" width="552" height="167"><a href="https://claw-and-order-games.itch.io/awwmageddon">AwwMageddon by Claw and Order Games</a></iframe>
+        <div class="Games" class="GD">
+            <li><strong>AwwMageddon:</strong> 325 Course</li>>
+            <div><iframe frameborder="0" src="https://itch.io/embed/3161137?linkback=true&amp;link_color=52be34&amp;border_color=8e00de" width="552" height="167"><a href="https://claw-and-order-games.itch.io/awwmageddon">AwwMageddon by Claw and Order Games</a></iframe></div>
             <img alt="Static Badge" src="https://img.shields.io/badge/Game%20Dev-purple">
         </div>
         
         <!-- Sticky Situation -->
-        <div id="Games" id="GD id="Solo">
+        <div class="Games" class="GD" class="Solo">
             <li><strong>Sticky Situation:</strong> Honors Project</li>
-            <iframe frameborder="0" src="https://itch.io/embed/3256309?linkback=true&amp;link_color=2b7ff4&amp;border_color=be4292" width="552" height="167"><a href="https://severedx.itch.io/sticky-situation">Sticky Situation by Severedx</a></iframe>
-            <img alt="Static Badge" src="https://img.shields.io/badge/Game%20Dev-purple">
-            <img alt="Static Badge" src="https://img.shields.io/badge/Solo-salmon">
+            <div><iframe frameborder="0" src="https://itch.io/embed/3256309?linkback=true&amp;link_color=2b7ff4&amp;border_color=be4292" width="552" height="167"><a href="https://severedx.itch.io/sticky-situation">Sticky Situation by Severedx</a></iframe></div>
+            <span><img alt="Static Badge" src="https://img.shields.io/badge/Game%20Dev-purple">
+            <img alt="Static Badge" src="https://img.shields.io/badge/Solo-salmon"></span>
 
         </div>
 
         <!-- L-System Tree -->
-        <li><strong>L-System Tree</strong> Formal Lang</li>
-        <img alt="Static Badge" src="https://img.shields.io/badge/Software%20Eng-blue">
+        <div class="Software"><li><strong>L-System Tree</strong> Formal Lang</li>
+            <div><img alt="Static Badge" src="https://img.shields.io/badge/Software%20Eng-blue"></div></div>
+        
 
         <!-- @Obsession -->
-        <div id="Games" id="GD">
+        <div class="Games" class="GD">
             <li><strong>@Obsession:</strong> 200 course</li>
-            <iframe frameborder="0" src="https://itch.io/embed/2322295" width="552" height="167"><a href="https://austereinsomniac.itch.io/obsession">@Obsession</a></iframe>
+            <div><iframe frameborder="0" src="https://itch.io/embed/2322295" width="552" height="167"><a href="https://austereinsomniac.itch.io/obsession">@Obsession</a></iframe></div>
             <img alt="Static Badge" src="https://img.shields.io/badge/Game%20Dev-purple">
         </div>
 
         <!-- Full Star -->
         <div>
             <li><strong>Full Star:</strong> 325 "jam" game</li>
-            <iframe frameborder="0" src="https://itch.io/embed/3032970?linkback=true&amp;link_color=d48922" width="552" height="167"><a href="https://severedx.itch.io/full-star">Full Star by Severedx</a></iframe>
+            <div><iframe frameborder="0" src="https://itch.io/embed/3032970?linkback=true&amp;link_color=d48922" width="552" height="167"><a href="https://severedx.itch.io/full-star">Full Star by Severedx</a></iframe></div>
             <img alt="Static Badge" src="https://img.shields.io/badge/Game%20Dev-purple">
         </div>
 
         <!-- Mercy Man -->
         <li><strong>Mercy Man:</strong> in "development"</li>
-        <a href="https://github.com/DrakeMitchell/New-MercyMan" target="https://img.shields.io/badge/any_text-you_like-blue" alt="GitHub Repository">GitHub</a>
-        <img alt="Static Badge" src="https://img.shields.io/badge/Game%20Dev-purple">
-        <img alt="Static Badge" src="https://img.shields.io/badge/Solo-salmon">
+        <div> <a href="https://github.com/DrakeMitchell/New-MercyMan" target="https://img.shields.io/badge/any_text-you_like-blue" alt="GitHub Repository">GitHub</a></div>
+        <span><img alt="Static Badge" src="https://img.shields.io/badge/Game%20Dev-purple">
+        <img alt="Static Badge" src="https://img.shields.io/badge/Solo-salmon"></span>
 
         <!-- Portfolio Website -->
         <li><strong>This Website!:</strong> A made from scratch website to fit my personal portfolio needs!</li>
-        <img alt="Static Badge" src="https://img.shields.io/badge/Software%20Eng-blue">
+        <div></div>
+        <span></span><img alt="Static Badge" src="https://img.shields.io/badge/Software%20Eng-blue">
         <img alt="Static Badge" src="https://img.shields.io/badge/Solo-salmon">
+        
     </ul>
 </section>
 
@@ -98,6 +108,43 @@
     <p>GitHub: <a href="https://github.com/DrakeMitchell" target = _blank>https://github.com/DrakeMitchell</a></p>
     <p>Itch.io: <a href="https://severedx.itch.io/" target = _blank>https://severedx.itch.io/</a></p>
 </section>
+
+<script>
+    function All(){
+        const element = document.querySelectorAll('.Games');
+        element.forEach(el => {
+                el.style.display = "block"
+        });
+
+        const element2 = document.querySelectorAll('.Software');
+        element2.forEach(el => {
+            el.style.display = "block"
+        });
+    }
+    
+    function Games(){
+        const element = document.querySelectorAll('.Software');
+        element.forEach(el => {
+            if (el.style.display != "none") {
+                el.style.display = "none";
+            } else {
+                el.style.display = "block";
+            }
+        })
+    }
+    
+    function Software(){
+        const element = document.querySelectorAll('.Games');
+        element.forEach(el => {
+            if (el.style.display != "none") {
+                el.style.display = "none";
+            } else {
+                el.style.display = "block";
+            }
+        })
+    }
+    
+</script>
 
 <footer>
     <p>Lol</p>
