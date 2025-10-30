@@ -74,10 +74,11 @@ button {
     height: 2em;
     color: white;
     font-size: 20px;
-    margin-right: 2em;
+    margin-right: 2.5em;
 }
 
 @font-face {
     font-family: 'Doto';
     src: url('Doto-SemiBold.ttf');
 }
+ 
