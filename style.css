@@ -63,11 +63,38 @@ strong{
     font-size:20px
 }
 
+.Seymour {
+    margin-top: 0em;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
 #about {
     display: flex;
     column-gap: 5%;
     font-size: 25px;
 }
+
+.Desc{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-size: 1.2em;
+}
+
+
+.Games {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.Software {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+
 
 button {
     text-align: center;
