@@ -11,12 +11,14 @@ AllButton.addEventListener('click', All)
 function All(){
     const element = document.querySelectorAll('.Games');
     element.forEach(el => {
-        el.style.display = "block"
+        el.style.display = "inline-block";
+        el.style.width = "45%";
     });
 
     const element2 = document.querySelectorAll('.Software');
     element2.forEach(el => {
-        el.style.display = "block"
+        el.style.display = "inline-block";
+        el.style.width = "45%";
     });
 }
 
@@ -27,7 +29,8 @@ function Games(){
         if (el.style.display != "none") {
             el.style.display = "none";
         } else {
-            el.style.display = "block";
+            el.style.display = "inline-block";
+            el.style.width = "45%";
         }
     })
 }
@@ -39,7 +42,8 @@ function Software(){
         if (el.style.display != "none") {
             el.style.display = "none";
         } else {
-            el.style.display = "block";
+            el.style.display = "inline-block";
+            el.style.width = "45%";
         }
     })
 }
@@ -58,14 +62,16 @@ function Solo(){
                 el.style.display = "none";
             }
             else {
-                el.style.display = "block";
+                el.style.display = "inline-block";
+                el.style.width = "45%";
             }
         })
     }
 
     const element1 = document.querySelectorAll('.Solo');
     element1.forEach(el => {
-        el.style.display = "block";
+        el.style.display = "inline-block";
+        el.style.width = "45%";
     })
 }
 
