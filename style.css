@@ -41,19 +41,15 @@ section {
     border-radius: 8px;
 }
 
+
+
 h2 {
     color: #444;
     border-bottom: 2px solid #ddd;
     padding-bottom: 0.3em;
 }
 
-footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #333;
-    color: white;
-    margin-top: 30px;
-}
+
 
 li {
     font-size:20px
@@ -79,6 +75,7 @@ strong{
     margin-top: 0.1em;
     margin-bottom: 0.1em;
     font-size: 1.2em;
+    
 }
 
 
@@ -86,12 +83,34 @@ strong{
     display: inline-block;
     width: 45%;
     vertical-align: top;
+    background-color: #8f959c;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C5C68;
+    margin-bottom: 1em;
+    margin-right: 1em;
 }
 
 .Software {
     display: inline-block;
     width: 45%;
     vertical-align: top;
+    background-color: #8f959c;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C5C68;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+#contact {
+    background-color: #4C5C68;
+    color: black;
+    font-size: 20px;
+}
+
+#C {
+    color: black;
 }
 
 
