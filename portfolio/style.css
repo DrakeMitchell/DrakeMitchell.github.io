@@ -64,6 +64,10 @@ footer {
     font-size: 25px;
 }
 
+#about2{
+    font-size:20px;
+}
+
 button {
     text-align: center;
     background-color: #4E6E87;
@@ -78,6 +82,10 @@ button {
     background-color: #4C5C68;
     color: black;
     font-size: 20px;
+}
+
+#C {
+    color: black;
 }
 
 @font-face {

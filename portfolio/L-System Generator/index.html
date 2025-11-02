@@ -9,7 +9,7 @@
 <body>
 <header>
     <h1>L-System Generator</h1>
-    <p></p>
+    <p>Python</p>
 </header>
 
 <nav>
@@ -22,7 +22,7 @@
     <h2>L-System Generator</h2>
 
     <div id="about">
-        <p>MCSC Formal Language and Finite Automata final projects<br>
+        <p>Co-developed with two others as our Formal Language and Finite Automata final project<br>
             ---------------------------------------------------------------<br>
             Programmed in python, connects to the 3d modelling software Blender  to procedurally generate a "tree" using an L-System input<br>
             
@@ -31,14 +31,76 @@
 </section>
 
 <section>
+    <h2>L-System Input Explanation</h2>
+    <p><strong>Techincal explanation for Tree creation: </strong><br>
+        Rotation Matrices: <br>
+        RU(α) =
+        [ (cos α, sin α, 0),<br>
+        (− sin α, cos α, 0),<br>
+        (0, 0, 1)]<br>
+        <p></p>
+        RL(α) =
+        [
+        (cos α 0 − sin α)<br>
+        (0 1 0)<br>
+        (sin α 0 cos α)]<br>
+        <p></p>
+        RH(α) =
+        [
+        (1 0 0)<br>
+        (0 cos α − sin α)<br>
+        (0 sin α cos α)]<br>
+        <p></p>
+        The following symbols control turtle orientation in space: <br>
+        + Turn left by angle δ, using rotation matrix RU(δ). <br>
+        − Turn right by angle δ, using rotation matrix RU(−δ). <br>
+        * Pitch down by angle δ, using rotation matrix RL(δ). <br>
+        / Pitch up by angle δ, using rotation matrix RL(−δ). <br>
+        ^ Roll left by angle δ, using rotation matrix RH(δ). <br>
+        ! Roll right by angle δ, using rotation matrix RH(−δ). <br>
+        <p></p>
+        [ Open Branch <br>
+        ] Close Branch <br>
+    
+    <!-- Link to pdf?-->
+    
+    <p>Built in Demo tree uses the input:<br>
+        F[+F]/F[-F]*F^F!F[+F[+F]/F[-F]*F^F!F]/F[+F]/F[-F]*F^F!F[-F[+F]/F[-F]*F^F!F]*F^F!F[+F]/F[-F]*F^F!F[+F[+F]/F[-F]*F^F!F]/F[+F]/F[-F]*F^F!F[-F[+F]/F[-F]*F^F!F]*F^F!F[-F[+F]/F[-F]*F^F!F]/F[+F]/F[-F]*F^F!F[+F[+F]/F[-F]*F^F!F]/F[+F]/F[-F]*F^F!F[-F[+F]/F[-F]*F^F!F]*F^</p>
+    
     <h2>Examples</h2>
+    <img src="L-Sys_Thumbnail.png">
     <!-- Videos and Images to show examples, explain a little more -->
 </section>
 
 <section>
     <h2>Download and Run Instructions</h2>
+    <p>The Visual Studio Code extension "Blender Development" by Jacques Lucke is required to properly connect the program to Blender</p>
+    <p>Open the folder titled Module in VS Code and open "inputbox.py", Press Ctrl+Shift+P and run "Blender: Start" pick your version of Blender to open</p>
+    <p> Open the given demo tree in L-SystemDemo.blend or create your own</p>
+    <img src="L-Sys_OpenBlender.png" width="500", height = "300">
+    <p>press Ctrl+Shift+P again and run "Blender: Run Script"</p>
+    <img src="L-Sys_Step1.jpg" width="500" height="300">
+    <img src="L-Sys_Step2.png" width="500" height="300">
+    <p>Follow the images to open the L-System interaction screen, Either clear the current tree or input your own L-System to generate a fresh tree!</p>
+    
 
 </section>
 
+<section id="download">
+    <h2>Download</h2>
+    <div id="repo">
+        <a href="https://github.com/DrakeMitchell/L-SystemTree">Github Link</a>
+    </div>
+</section>
+<section id="contact">
+    <h2 id="C">Contact</h2>
+    <br>
+    <p>Email: <a href="mailto:drakefmitchell@gmail.com">Drakefmitchell@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/drake-mitchell/" target = _blank>https://www.linkedin.com/in/drake-mitchell/</a></p>
+    <p>GitHub: <a href="https://github.com/DrakeMitchell" target = _blank>https://github.com/DrakeMitchell</a></p>
+    <p>Itch.io: <a href="https://severedx.itch.io/" target = _blank>https://severedx.itch.io/</a></p>
+</section>
+
+<script src="https://cdn.jsdelivr.net/gh/peterbenoit/RepoWidget@latest/dist/repoWidget.min.js"></script>
 </body>
 </html>
