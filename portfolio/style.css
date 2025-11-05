@@ -38,7 +38,7 @@ section {
     text-align: center;
     align-content: center;
     padding: 2em;
-    max-width: 800px;
+    max-width: 40%;
     margin: auto;
     background: #B7B4B8;
     border-radius: 8px;
@@ -56,6 +56,13 @@ footer {
     background-color: #333;
     color: white;
     margin-top: 30px;
+}
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
 }
 
 #about {
