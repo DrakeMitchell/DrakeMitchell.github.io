@@ -2,7 +2,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #46494C;
+    background: #46494C;
     color: #333;
 }
 
@@ -49,8 +49,9 @@ section {
     padding: 2em;
     max-width: 60%;
     margin: auto;
-    background: #B7B4B8;
+    background: rgba(183, 180, 184, 1);
     border-radius: 8px;
+    
 }
 
 h2 {

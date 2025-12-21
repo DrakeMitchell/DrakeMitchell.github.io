@@ -19,10 +19,19 @@ header {
     padding: 0.2em 0;
 }
 
+footer{
+    background-color: #333;
+    font-family: Doto;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 0.2em 0;
+}
 nav {
     background-color: #4C5C68;
     text-align: center;
     padding: 0.5em 0;
+    
 }
 
 nav a {
@@ -103,15 +112,6 @@ strong{
     margin-right: 1em;
 }
 
-#contact {
-    background-color: #4C5C68;
-    color: black;
-    font-size: 20px;
-}
-
-#C {
-    color: black;
-}
 
 img{
     max-width: 100%;
