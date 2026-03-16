@@ -68,6 +68,46 @@ h1{
     text-align: center;
 }
 
+.Games strong{
+    font-size:35px;
+    font-family: Doto;
+    font-weight: bolder;
+}
+.Software strong{
+    font-size:35px;
+    font-family: Doto;
+    font-weight: bolder;
+}
+
+.Games {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    background-color: #4378CC;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C5C68;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.Software {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    background-color: #7a6eac;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C5C68;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
 img {
     max-width: 100%;
 }
