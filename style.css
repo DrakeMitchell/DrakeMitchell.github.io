@@ -81,15 +81,6 @@ strong{
     font-size:20px
 }
 
-.Seymour {
-    margin-top: 0em;
-    font-size: 25px;
-    margin-bottom: 0;
-    background-color: #b7b7b7;
-    margin-left: 40%;
-    margin-right: 40%
-}
-
 #about {
     
     column-gap: 5%;
@@ -127,6 +118,7 @@ strong{
     margin-right: 1em;
     color: white;
     font-size: 20px;
+    border-radius: 50px;
 }
 
 .Software {
@@ -139,20 +131,9 @@ strong{
     border-color: #4C5C68;
     margin-bottom: 1em;
     margin-right: 1em;
+    border-radius: 50px;
 }
 
-#contact {
-    background-color: #333;
-    font-family: Doto;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    padding: 0.2em 0;
-}
-
-#C {
-    color: black;
-}
 
 img{
     max-width: 100%;
@@ -167,8 +148,9 @@ button {
     width: 6em;
     height: 2em;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 2.5em;
+
 }
 
 @font-face {
