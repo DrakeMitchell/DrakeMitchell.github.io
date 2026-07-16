@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Doto';
+    src: url("../../Doto-SemiBold.ttf");
+}
+
+:root{
+  --Primary-BG: #46494C;
+  --Secondary-BG: #3D5DBA; 
+}
+
+nav {
+    background-color: var(--Secondary-BG);
+    text-align: center;
+    padding: 0.5em 0;
+    
+}
+
+nav a {
+    color: white;
+    margin: 1em;
+    text-decoration: none;
+}
+
+header {
+    background-color: #333;
+    font-family: Doto;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 0.2em 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #46494C;
+    color: #333;
+}
+
+section {
+    text-align: center;
+    align-content: center;
+    padding: 2em;
+    background: #B7B4B8;
+    border-radius: 0.5em;
+    color: white;
+    background-color: #333;
+}
+
+li {
+    font-size:20px
+}
+
+h1{
+    font-family: Doto;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: #4d86e2;
+    border-bottom: 2px solid #ddd;
+    font-size: 40px;
+    padding-bottom: 0.3em;
+}
+
+
+#Education{
+    color: white;
+    font-size: 20px;
+}
+
+
+#about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;  /* Text left, Image right */
+  align-items: center;
+  padding-right: 20%;
+  padding-left:20%;
+  justify-content: space-between;
+}
+
+#Resume{
+    text-align: center;
+    background-color: var(--Secondary-BG);
+    border-width: 3px;
+    border-color: #B7B4B8;
+    width: 6em;
+    height: 5em;
+    color: white;
+    font-size: 20px;
+}
+
+
+.Games strong{
+    font-size:35px;
+    font-family: Doto;
+    font-weight: bolder;
+}
+.Software strong{
+    font-size:35px;
+    font-family: Doto;
+    font-weight: bolder;
+}
+
+.Desc{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-size: 1.2em;
+    
+}
+
+.Games {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    background-color: #4378CC;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C5C68;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.Software {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    background-color: #7a6eac;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C5C68;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+footer{
+    background-color: #333;
+    font-family: Doto;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 0.2em 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.btn {
+    text-align: center;
+    background-color: var(--Secondary-BG);
+    border-width: 3px;
+    border-color: #B7B4B8;
+    width: 6em;
+    height: 2em;
+    color: white;
+    font-size: 30px;
+    margin-right: 2.5em;
+
+}
+
+.btn:hover{
+  background-color: #7a6eac;
+}
+
+
+ 
