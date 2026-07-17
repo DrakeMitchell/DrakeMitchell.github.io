@@ -39,7 +39,7 @@ export const LSystem = {
     thumbnail:"./Thumbnails/L-Sys_Thumbnail.png",
     shortDesc:`Python script interacting with Blender to generate a "Tree" based off of an L-System instruction.`,
     badge:"./Project Badges/python-&-blender-l-systems.svg",
-    url:"/projects/L-System Generator",
+    url:"/#/projects/L-System Generator",
     type:"Software",
 
 

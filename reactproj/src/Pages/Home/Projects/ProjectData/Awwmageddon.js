@@ -37,7 +37,7 @@ export const Awwmageddon={
     shortDesc:`3D city destruction game made in Unreal Engine 5 utlizing the AI behavior tree.
                 Attempt to control the (incredibly) cute and (incredibly) destructive Kaijuwu to destroy the city!`,
     badge:"./Project Badges/unreal-5-blueprints.svg",
-    url:"/projects/Awwmageddon",
+    url:"/#/projects/Awwmageddon",
     type:"Games",
 
     awards:"yes",

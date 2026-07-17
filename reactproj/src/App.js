@@ -19,9 +19,9 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/resume' element={<AboutMe/>}/>
-        <Route path='/projects' element={<Portfolio/>}/>
+        <Route path='/#' element={<Home/>}/>
+        <Route path='/#/resume' element={<AboutMe/>}/>
+        <Route path='/#/projects' element={<Portfolio/>}/>
 
         // Project Routes ----
         {proj && proj.projects.length >0 && proj.projects.map((item, index) => (

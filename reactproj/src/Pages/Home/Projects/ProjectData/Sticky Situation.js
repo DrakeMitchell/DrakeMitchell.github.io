@@ -43,7 +43,7 @@ export const StickySituation = {
     badge:"./Project Badges/godot-gdscript-solo.svg",
     shortDesc:`A solo dev project to recreate and expand upon the gameplay mechanics of the Kuru Kuru Kuruin game series for the GBA and GameCube.
         This is a puzzle/movement game (and potential rage game) that has the player control a constantly spinning stick in order to navigate a maze.`,
-    url:"/projects/Sticky Situation",
+    url:"/#/projects/Sticky Situation",
 
 
 
