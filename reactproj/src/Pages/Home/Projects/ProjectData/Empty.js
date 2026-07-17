@@ -10,9 +10,16 @@ export const Empty = {
     studioName:"",
     teamSize:"",
     platforms:"PC",
-    responsiblities:"",
+    responsiblities:[
+
+    ],
     engine:"",
     projectLength:"",
+
+
+
+
+
 
     //Description
     desc:[
@@ -21,6 +28,17 @@ export const Empty = {
     img:[
         
     ],
+    contributions:[
+
+    ],
+
+    //Home Screen Hero
+    thumbnail:"",
+    shortDesc:``,
+    badge:"",
+    url:"",
+    type:"",
+
 
     //Special Sections
     downloadable:"",

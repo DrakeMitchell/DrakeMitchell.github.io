@@ -1,4 +1,4 @@
-import {All,Software,Games,Solo} from './ProjectFilters'
+import {All,Software,Games,Solo} from '../Home Scripts/ProjectFilters.js'
 export default function Portfolio(){
     return (
     <section id="projects">
@@ -15,7 +15,7 @@ export default function Portfolio(){
         
         {/* <!-- Gator Hucker --> */}
         <span class="Games">
-            <strong>Gator Hucker</strong>
+            <strong id="GameTitle">Gator Hucker</strong>
             <br/>
             <a href="/projects/Gator Hucker">
                 <img src="./Thumbnails/GHuck_Thumbnail.png" height = "300" width = "450"/>
@@ -35,7 +35,7 @@ export default function Portfolio(){
         
         {/* <!-- AwwMageddon --> */}
         <span class="Games">
-            <strong>AwwMageddon</strong>
+            <strong id="GameTitle">AwwMageddon</strong>
             <br/>
             <a href="/projects/AwwMageddon">
                 <img src="./Thumbnails/AwwMag_Thumbnail.png" height = "300" width = "350"/>
@@ -56,7 +56,7 @@ export default function Portfolio(){
         
          {/* <!-- Sticky Situation --> */}
         <div class="Solo Games">
-            <strong>Sticky Situation</strong>             
+            <strong id="GameTitle">Sticky Situation</strong>             
             <br/>
             <a href="/projects/Sticky Situation">
                 <img src="./Thumbnails/Sticky-Thumbnail.png" height = "300" width = "350"/>
@@ -79,7 +79,7 @@ export default function Portfolio(){
 
         {/* <!-- L-System Tree --> */}
         <div class="Software">
-            <strong>L-System Tree</strong> 
+            <strong id="GameTitle">L-System Tree</strong> 
             
             <br/>
             <a href="/projects/L-System Generator">
@@ -101,7 +101,7 @@ export default function Portfolio(){
 
         {/* <!-- @Obsession --> */}
         <div class="Games">
-            <strong>@Obsession</strong> 
+            <strong id="GameTitle">@Obsession</strong> 
             
             <br/>
             <a href="/projects/@Obsession">
@@ -123,7 +123,7 @@ export default function Portfolio(){
 
         {/* <!-- Full Star --> */}
         <div class="Games">
-            <strong>Full Star</strong> 
+            <strong id="GameTitle">Full Star</strong> 
             
             <br/>
             <a href="/projects/Full Star">
@@ -167,7 +167,7 @@ export default function Portfolio(){
 
         {/* <!-- Portfolio Website --> */}
         <div class="Software Solo">
-            <strong>This Website!</strong> 
+            <strong id="GameTitle">This Website!</strong> 
             <p class = "Desc">
                 A made from scratch website to fit my personal portfolio needs!
             </p>

@@ -53,7 +53,8 @@ section {
 }
 
 li {
-    font-size:20px
+    font-size:20px;
+    color: #8ba9da;
 }
 
 h1{
@@ -89,8 +90,32 @@ h2 {
 
 .about-text p{
     color:#fff;
-    font-size: 30px;
+    font-size: 20px;
+    text-align: left;
     white-space: pre-wrap;
+}
+
+.role-text p{
+    color:#fff;
+    font-size: 25px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+#GameTitle{
+    color:white;
+    font-size: 50px;
+}
+
+#title {
+    font-family: Doto;
+    font-size: 60px;
+    color:white;
+    text-align: center;
+}
+
+#genre {
+    border-bottom: 2px solid #ddd;
 }
 
 .GameDescription-text p{
@@ -123,6 +148,11 @@ h2 {
     color: white;
     font-size: 20px;
 }
+
+strong{
+    color:#8ba9da;
+}
+
 
 
 .Games strong{

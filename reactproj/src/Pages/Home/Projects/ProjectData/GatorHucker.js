@@ -10,7 +10,9 @@ export const GatorHucker ={
     studioName:"",
     teamSize:"15",
     platforms:"PC",
-    responsiblities:"",
+    responsiblities:[`Engineered and Implemented Online Newtworking with Epic Online Services (EOS)`,
+        "Coordinated with Gameplay and UI leads to synchronize player statistics and replication.",
+    ],
     engine:"Unreal Engine 5, C++ and Blueprints, EOS",
     projectLength:"~8 Months",
 
@@ -35,6 +37,22 @@ export const GatorHucker ={
     img:["/Games/Gator Hucker/Super laser.png", "/Games/Gator Hucker/Hucking.png"
 
     ],
+    contributions:[
+        `Engineered and implemented online networking and Object-Oriented replication systems utilizing Epic Online Services (EOS),
+         including private/ public lobbies and matchmaking.`,
+        `Developed networking systems in Unreal 5 employing both C++ and Blueprints with a 15-member cross-functional team, 
+        adhering to version control protocols.`,
+        `Coordinated with Gameplay and UI leads to synchronize player statistics and ensure 100% gameplay replication accuracy.`,
+        `Managed version control hygiene and code review processes, enforcing strict quality gates before merging features to the main branch.`,
+    ],
+
+    //Home Screen Hero
+    thumbnail:"./Thumbnails/GHuck_Thumbnail.png",
+    shortDesc:`Eight Player fully online Team Deathmatch or Free For All game built in Unreal Engine 5.
+                Play as Alien Alligators with an array of fun abilities in this cartoony and casual "Hero-shooter"!`,
+    badge:"./Project Badges/unreal-5-c++-&-blueprints.svg",
+    url:"/projects/Gator Hucker",
+    type:"Games",
 
 
     awards:"yes",

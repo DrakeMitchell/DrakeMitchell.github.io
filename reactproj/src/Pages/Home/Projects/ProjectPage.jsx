@@ -14,9 +14,9 @@ export default function ProjectPage({project}){
         <ProjectHero 
         title={project.title} shortDesc={project.shortDesc} poster={project.poster} releaseDate={project.releaseDate}
         studioName={project.studioName} teamSize={project.teamSize} platforms={project.platforms} engine={project.engine}
-        responsibilites={project.responsibilites} projectLength={project.projectLength} awards={project.awards} awardImg={project.awardImg}/>
+        responsiblities={project.responsiblities} projectLength={project.projectLength} awards={project.awards} awardImg={project.awardImg}/>
 
-        <ProjectRole/>
+        <ProjectRole contributions={project.contributions}/>
 
         <ProjectDescription title={project.title} desc={project.desc} img={project.img} special={project.special} specialText={project.specialText}/>
 

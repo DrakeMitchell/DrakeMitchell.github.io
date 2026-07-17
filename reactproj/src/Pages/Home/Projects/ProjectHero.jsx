@@ -6,7 +6,7 @@ export default function ProjectHero({
     studioName,
     teamSize,
     platforms,
-    responsibilites,
+    responsiblities,
     engine,
     projectLength,
     awards,
@@ -14,19 +14,26 @@ export default function ProjectHero({
 }){
     return(
         <section>
-            <h2>{title}</h2>
+            {/* <h2>{title}</h2> */}
 
 
             <div id="about">
                 <div class="about-text">
                     <p>{shortDesc}</p>
-                    {releaseDate && <p>Released: {releaseDate}</p>}<br/>
-                    {studioName && <p>Studio: {studioName}</p>}<br/>
-                    {teamSize && <p>Team Size: {teamSize}</p>}<br/>
-                    {platforms && <p>Platorm(s): {platforms}</p>}<br/>
-                    {engine && <p>Engine: {engine}</p>}<br/>
-                    {projectLength && <p>Project Length: {projectLength}</p>}<br/>
-                    {responsibilites && <p>Responsibilites: {responsibilites}</p>}<br/>
+                    {releaseDate && <p><strong>Released:</strong> {releaseDate}</p>}<br/>
+                    {studioName && <p><strong>Studio:</strong> {studioName}</p>}<br/>
+                    {teamSize && <p><strong>Team Size:</strong> {teamSize}</p>}<br/>
+                    {platforms && <p><strong>Platorm(s):</strong> {platforms}</p>}<br/>
+                    {engine && <p><strong>Engine:</strong> {engine}</p>}<br/>
+                    {projectLength && <p><strong>Project Length:</strong> {projectLength}</p>}<br/>
+                    {responsiblities && <p><strong>Main Responsibilites:</strong></p>}<br/> 
+                    {responsiblities && responsiblities.length > 0 && responsiblities.map((item, index) => (
+                        <div key={index}>
+                            <li><p>{item}</p></li><br/>
+                        </div>
+                    ))}
+
+
                 </div>
                 <div class="about-image">
                     <img src={poster} width = "150%"/>

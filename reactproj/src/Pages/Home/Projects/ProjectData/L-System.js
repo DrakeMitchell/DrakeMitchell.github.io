@@ -8,11 +8,11 @@ export const LSystem = {
     poster:"/Thumbnails/L-Sys_Thumbnail.png",
     releaseDate:"",
     studioName:"",
-    teamSize:"",
+    teamSize:"3",
     platforms:"PC",
-    responsiblities:"",
+    responsiblities:["Worked on connecting the Python script to Blender via Visual Studio Code",],
     engine:"",
-    projectLength:"",
+    projectLength:"2 Weeks",
 
     //Description
     desc:[`The Visual Studio Code extension "Blender Development" by Jacques Lucke is required to properly connect the program to Blender
@@ -31,6 +31,18 @@ export const LSystem = {
         
     ],
 
+    contributions:[
+
+    ],
+
+    //Home Screen Hero
+    thumbnail:"./Thumbnails/L-Sys_Thumbnail.png",
+    shortDesc:`Python script interacting with Blender to generate a "Tree" based off of an L-System instruction.`,
+    badge:"./Project Badges/python-&-blender-l-systems.svg",
+    url:"/projects/L-System Generator",
+    type:"Software",
+
+
     //Special Sections
     downloadable:"",
     credits:"",
@@ -39,6 +51,8 @@ export const LSystem = {
 
     ],
     software:"yes",
+
+
 
     //L-System
     special:"yes",
