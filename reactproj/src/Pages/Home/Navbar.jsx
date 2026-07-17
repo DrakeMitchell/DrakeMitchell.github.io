@@ -4,7 +4,7 @@ import Header from "./Header";
 const Navbar = () => {
     return (
         <>
-        <Header/>
+        {/* <Header/> */}
         <nav>
             <a href="/" to="/">Home</a>
             <a href="/resume">Resume</a>

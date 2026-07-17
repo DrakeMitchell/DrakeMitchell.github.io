@@ -17,7 +17,7 @@ export default function Portfolio(){
         <span class="Games">
             <strong>Gator Hucker</strong>
             <br/>
-            <a href="/portfolio/Gator Hucker">
+            <a href="/projects/Gator Hucker">
                 <img src="./Thumbnails/GHuck_Thumbnail.png" height = "300" width = "450"/>
             </a>
             <br/>
@@ -26,7 +26,7 @@ export default function Portfolio(){
                 Play as Alien Alligators with an array of fun abilities in this cartoony and casual "Hero-shooter"!
             </p>
             <br/>
-            <a href="/portfolio/Gator Hucker">
+            <a href="/projects/Gator Hucker">
                 <img alt="Static Badge" src="./Project Badges/see-more....svg"/>
             </a>
             <br/>
@@ -37,7 +37,7 @@ export default function Portfolio(){
         <span class="Games">
             <strong>AwwMageddon</strong>
             <br/>
-            <a href="/portfolio/AwwMageddon">
+            <a href="/projects/AwwMageddon">
                 <img src="./Thumbnails/AwwMag_Thumbnail.png" height = "300" width = "350"/>
             </a>
             <br/>
@@ -46,7 +46,7 @@ export default function Portfolio(){
                 Attempt to control the (incredibly) cute and (incredibly) destructive Kaijuwu to destroy the city!<br/>
              </p>
             <br/>
-            <a href="/portfolio/AwwMageddon">
+            <a href="/projects/AwwMageddon">
                  <img alt="Static Badge" src="./Project Badges/see-more....svg"/>
             </a>
             <br/>
@@ -58,7 +58,7 @@ export default function Portfolio(){
         <div class="Solo Games">
             <strong>Sticky Situation</strong>             
             <br/>
-            <a href="/portfolio/Sticky Situation">
+            <a href="/projects/Sticky Situation">
                 <img src="./Thumbnails/Sticky-Thumbnail.png" height = "300" width = "350"/>
             </a>
             <br/>
@@ -67,7 +67,7 @@ export default function Portfolio(){
                 Try to make it to the end in one piece! And try not to break anything in a rage in the process!
             </p>
             <br/>
-            <a href="/portfolio/Sticky Situation">
+            <a href="/projects/Sticky Situation">
                 <img alt="Static Badge" src="./Project Badges/see-more....svg"/>
             </a>
             <br/>
@@ -82,7 +82,7 @@ export default function Portfolio(){
             <strong>L-System Tree</strong> 
             
             <br/>
-            <a href="/portfolio/L-System Generator">
+            <a href="/projects/L-System Generator">
                 <img src="./Thumbnails/L-Sys_Thumbnail.png" height = "300" width ="350"/>
             </a>
             
@@ -91,7 +91,7 @@ export default function Portfolio(){
                 Python script interacting with Blender to generate a "Tree" based off of an L-System instruction.
             </p>
             <br/>
-            <a href="/portfolio/L-System Generator">
+            <a href="/projects/L-System Generator">
                  <img alt="Static Badge" src="./Project Badges/see-more....svg"/>
             </a>
             <br/>
@@ -104,7 +104,7 @@ export default function Portfolio(){
             <strong>@Obsession</strong> 
             
             <br/>
-            <a href="/portfolio/@Obsession">
+            <a href="/projects/@Obsession">
                 <img src="./Thumbnails/@Obsession_Thumbnail.png" height="300" width ="350"/>
             </a>
             <br/>
@@ -113,7 +113,7 @@ export default function Portfolio(){
                 Play through the daily life as a Streamer/Youtuber, but beware of increasingly obsessed fans!
             </p>
             <br/>
-            <a href="/portfolio/@Obsession">
+            <a href="/projects/@Obsession">
                 <img alt="Static Badge" src="./Project Badges/see-more....svg"/>
             </a>
            {/* <!-- <iframe frameborder="0" src="https://itch.io/embed/2322295" width="552" height="167"><a href="https://austereinsomniac.itch.io/obsession">@Obsession</a></iframe>--> */}
@@ -126,7 +126,7 @@ export default function Portfolio(){
             <strong>Full Star</strong> 
             
             <br/>
-            <a href="/portfolio/Full Star">
+            <a href="/projects/Full Star">
                 <img src="./Thumbnails/Full Star_Logo.png" height = "350" height ="300"/>
             </a>
             
@@ -136,7 +136,7 @@ export default function Portfolio(){
                 Collect the missing pieces of your Star while avoiding obstacles and navigating gravity!
             </p>
             <br/>
-            <a href="/portfolio/Full Star">
+            <a href="/projects/Full Star">
                  <img alt="Static Badge" src="./Project Badges/see-more....svg"/>
             </a>
             <br/>

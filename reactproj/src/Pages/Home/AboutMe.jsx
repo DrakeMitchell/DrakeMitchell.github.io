@@ -1,18 +1,15 @@
-export default function AboutMe(){
+export default function AboutMe({data}){
     return (
     <section class="about-section">
         <h2>About Me</h2>
         
         <div id="about">
             <div class="about-text">
-                <p>I am a Software Engineer and Game Developer with a strong foundation in many different languages.</p>
-                <p>My background in Game Development has geared me for working in diverse groups, following AGILE principles and utilizing many different programs and coding languages.</p>
-                <p>As a Software Engineer, I wish to keep expanding my talents, learn new languages, and strategies to tackle problems effectively.</p>
-                <p>As a Game Developer, my dream is to develop my own games and experiences to entertain and inspire the gaming community.</p>
+                <p>{data.aboutMe}</p>
             </div>
 
             <div class="about-image">
-                <img src="./DrakeM.jpg" width="200" height="350" alt="Drake M" />
+                <img src={data.aboutMeImg} width="200" height="350" alt="Drake M" />
             </div>
         </div>
         <br/>
@@ -26,3 +23,4 @@ export default function AboutMe(){
     </section>
     )
 }
+
