@@ -26,7 +26,7 @@ jobs:
 
       - name: Install and Build
         run: |
-          cd reactProj
+          cd reactproj
           npm ci
           npm run build
 
