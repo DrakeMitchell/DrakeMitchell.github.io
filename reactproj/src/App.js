@@ -4,7 +4,7 @@ import React from 'react';
 import Home from './Pages/Home/Homescreen/HomePage.jsx';
 import Navbar from './Pages/Home/Homescreen Components/Navbar';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Routes,
     Route,
 } from "react-router-dom";
