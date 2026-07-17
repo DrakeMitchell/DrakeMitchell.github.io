@@ -29,7 +29,7 @@ export const FullStar = {
     shortDesc:`2D Physics Movement game built in Godot, made as part of a 2 week long "Game Jam"
                 Collect the missing pieces of your Star while avoiding obstacles and navigating gravity!`,
     badge:"./Project Badges/godot-gdscript.svg",
-    url:"/#/projects/Full Star",
+    url:"/projects/Full Star",
     type:"Games",
 
     //Special Sections

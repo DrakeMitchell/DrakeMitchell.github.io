@@ -38,7 +38,7 @@ export const Obsession = {
     shortDesc:`2D Life Simulator game built in Unity Game Engine. 
     Play through the daily life as a Streamer/Youtuber, but beware of increasingly obsessed fans!`,
     badge:"./Project Badges/unity-csharp.svg",
-    url:"/#/projects/@Obsession",
+    url:"/projects/@Obsession",
     type:"Games",
 
     //Special Sections

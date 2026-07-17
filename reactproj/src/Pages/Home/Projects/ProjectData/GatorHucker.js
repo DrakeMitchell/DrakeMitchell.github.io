@@ -51,7 +51,7 @@ export const GatorHucker ={
     shortDesc:`Eight Player fully online Team Deathmatch or Free For All game built in Unreal Engine 5.
                 Play as Alien Alligators with an array of fun abilities in this cartoony and casual "Hero-shooter"!`,
     badge:"./Project Badges/unreal-5-c++-&-blueprints.svg",
-    url:"/#/projects/Gator Hucker",
+    url:"/projects/Gator Hucker",
     type:"Games",
 
 
