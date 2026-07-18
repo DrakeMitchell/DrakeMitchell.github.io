@@ -12,6 +12,8 @@ import AboutMe from './Pages/Home/Homescreen Components/AboutMe';
 import Portfolio from './Pages/Home/Homescreen Components/Portfolio';
 import ProjectPage from './Pages/Home/Projects/ProjectPage.jsx';
 import { ProjectOrder as proj } from './Pages/Home/Projects/ProjectData/ProjectOrder.js';
+import ProjectHero from './Pages/Home/Homescreen Components/ProjectHeroHS.jsx';
+import HomeVar from './Pages/Home/Home Scripts/HomeVar.js';
 
 
 function App() {
@@ -20,8 +22,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/resume' element={<AboutMe/>}/>
-        <Route path='/projects' element={<Portfolio/>}/>
+        <Route path='/resume' element={<AboutMe data={HomeVar}/>}/>
+        <Route path='/projects' element={<ProjectHero projects={proj.projects}/>}/>
 
         // Project Routes ----
         {proj && proj.projects.length >0 && proj.projects.map((item, index) => (
