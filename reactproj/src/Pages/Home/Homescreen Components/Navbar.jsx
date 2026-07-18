@@ -1,14 +1,20 @@
 import React from "react";
 import Header from "./Header";
+import {
+    HashRouter as Router,
+    Routes,
+    Route,
+    Link,
+} from "react-router-dom";
 
 const Navbar = () => {
     return (
         <>
         {/* <Header/> */}
         <nav>
-            <a href="/" to="/">Home</a>
-            <a href="/resume">Resume</a>
-            <a href="/projects" to="/projects">Projects</a>
+            <Link to="/">Home</Link>
+            <Link to="/resume">Resume</Link>
+            <Link to="/projects" to="/projects">Projects</Link>
             <a to="/contact">Contact</a>
         </nav>
         </>
