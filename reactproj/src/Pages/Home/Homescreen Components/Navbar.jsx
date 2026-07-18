@@ -13,9 +13,9 @@ const Navbar = () => {
         {/* <Header/> */}
         <nav>
             <Link to="/">Home</Link>
-            <Link to="/resume">Resume</Link>
+            <Link to="/">Resume</Link>
             <Link to="/projects" to="/projects">Projects</Link>
-            <a to="/contact">Contact</a>
+            <Link to="/">Contact</Link>
         </nav>
         </>
     );

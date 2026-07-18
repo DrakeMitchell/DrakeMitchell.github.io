@@ -1,4 +1,11 @@
 import {All,Software,Games,Solo} from '../Home Scripts/ProjectFilters.js'
+import {
+    HashRouter as Router,
+    Routes,
+    Route,
+    Link,
+} from "react-router-dom";
+
 export default function ProjectHero({projects}){
         return(
             <section id="projects">
@@ -18,17 +25,17 @@ export default function ProjectHero({projects}){
                     <span key={index} class={item.type}>
                         <strong id="GameTitle">{item.title}</strong>
                         <br/>
-                        <a href={item.url}>
+                        <Link to={item.url}>
                             <img src={item.thumbnail} height = "300" width = "450"/>
-                        </a>
+                        </Link>
                         <br/>
                         <p class="Desc">
                             {item.shortDesc}
                         </p>
                         <br/>
-                        <a href={item.url}>
+                        <Link to={item.url}>
                             <img alt="Static Badge" src="./Project Badges/see-more....svg"/>
-                        </a>
+                        </Link>
                         <br/>
                         <img alt="Static Badge" src={item.badge} height="50"/>
                     </span>
