@@ -7,7 +7,6 @@ import { StickySituation } from "./Sticky Situation"
 
 export const ProjectOrder={
         projects:[
-            GatorHucker,
             Awwmageddon,
             StickySituation,
             LSystem,
