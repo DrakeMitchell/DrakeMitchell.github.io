@@ -10,6 +10,12 @@ import {
 const Navbar = () => {
     return (
         <>
+        <head>
+            <meta charset="UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Drake M</title>
+            <link rel="icon" type="image/x-icon" href="./icon.png"/>
+        </head>,
         {/* <Header/> */}
         <nav>
             <Link to="/">Home</Link>

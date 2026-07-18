@@ -1,0 +1,119 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #46494C;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #333;
+    font-family: Doto;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 0.1em 0;
+}
+header p {
+    font-size: 20px;
+}
+
+
+nav {
+    background-color: #3D5DBA;
+    text-align: center;
+    padding: 0.5em 0;
+    
+}
+
+nav a {
+    color: white;
+    margin: 1em;
+    text-decoration: none;
+}
+
+h1{
+    font-family: Doto;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    align-content: center;
+    padding: 2em;
+    background: #B7B4B8;
+    border-radius: 0.5em;
+    color: white;
+    background-color: #333;
+}
+
+
+
+h2 {
+    color: #4d86e2;
+    border-bottom: 2px solid #ddd;
+    font-size: 40px;
+    padding-bottom: 0.3em;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+#about {
+
+    column-gap: 5%;
+    font-size: 25px;
+}
+
+span{
+    text-align: center;
+}
+
+#about2{
+    font-size:20px;
+}
+
+button {
+    text-align: center;
+    background-color: #3D5DBA;
+    border-width: 3px;
+    border-color: #B7B4B8;
+    width: 6em;
+    height: 2em;
+    color: white;
+    font-size: 30px;
+    margin-right: 2.5em;
+
+}
+@font-face {
+    font-family: 'Doto';
+    src: url('../Doto-SemiBold.ttf');
+}
+
+#awards {
+    align-items: center;
+    text-align: center;
+}
+
+#Gameplay {
+    font-size: 20px;
+}
+
+#download {
+    text-align: center;
+}
+#team {
+    text-align: center;
+}
