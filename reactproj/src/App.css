@@ -9,30 +9,11 @@ html {
 
 :root{
   --Primary-BG: #46494C;
-  --Secondary-BG: #3D5DBA; 
+  --Secondary-BG: #3D5DBA;
 }
 
-nav {
-    background-color: var(--Secondary-BG);
-    text-align: center;
-    padding: 0.5em 0;
-    
-}
 
-nav a {
-    color: white;
-    margin: 1em;
-    text-decoration: none;
-}
 
-header {
-    background-color: #333;
-    font-family: Doto;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    padding: 0.2em 0;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -72,28 +53,6 @@ h2 {
 }
 
 
-#Education{
-    color: white;
-    font-size: 20px;
-}
-
-
-#about {
-  display: grid;
-  grid-template-columns: 2fr 1fr;  /* Text left, Image right */
-  align-items: center;
-  padding-right: 15%;
-  padding-left:15%;
-
-  justify-content: space-between;
-}
-
-.about-text p{
-    color:#fff;
-    font-size: 20px;
-    text-align: left;
-    white-space: pre-wrap;
-}
 
 .role-text p{
     color:#fff;
@@ -130,108 +89,13 @@ h2 {
     margin-left: 30%;
 }
 
-.about-links{
-   display:flex;
-   align-items: center;
-   gap: 150px;
-   padding-right: 25%;
-   padding-left:30%;
-}
-
-#Resume{
-    text-align: center;
-    background-color: var(--Secondary-BG);
-    border-width: 3px;
-    border-color: #B7B4B8;
-    width: 6em;
-    height: 5em;
-    color: white;
-    font-size: 20px;
-}
-
-strong{
-    color:#8ba9da;
-}
-
-
-
-.Games strong{
-    font-size:35px;
-    font-family: Doto;
-    font-weight: bolder;
-}
-.Software strong{
-    font-size:35px;
-    font-family: Doto;
-    font-weight: bolder;
-}
-
-.Desc{
-    margin-top: 0.1em;
-    margin-bottom: 0.1em;
-    font-size: 1.2em;
-    
-}
-
-.Games {
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
-    background-color: #4378CC;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #4C5C68;
-    margin-bottom: 1em;
-    margin-right: 1em;
-    color: white;
-    font-size: 20px;
-    border-radius: 50px;
-}
-
-.Software {
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
-    background-color: #7a6eac;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #4C5C68;
-    margin-bottom: 1em;
-    margin-right: 1em;
-    font-size: 20px;
-    border-radius: 50px;
-}
-
-footer{
-    background-color: #333;
-    font-family: Doto;
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    padding: 0.2em 0;
-}
 
 img{
-    max-width: 100%;
+    max-width: 85%;
 }
 
 
-.btn {
-    text-align: center;
-    background-color: var(--Secondary-BG);
-    border-width: 3px;
-    border-color: #B7B4B8;
-    width: 6em;
-    height: 2em;
-    color: white;
-    font-size: 30px;
-    margin-right: 2.5em;
 
-}
-
-.btn:hover{
-  background-color: #7a6eac;
-}
 
 
  

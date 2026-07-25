@@ -1,9 +1,9 @@
-import ProjectHero from "./ProjectHero"
-import ProjectHeader from "./ProjectHeader"
-import ProjectRole from "./ProjectResponsiblity"
-import ProjectDescription from "./ProjectDescription"
-import ProjectGallery from "./ProjectGallery"
-import ProjectDownload from "./ProjectDownload"
+import ProjectHero from "../ProjectComponents/ProjectHero"
+import ProjectHeader from "../ProjectComponents/ProjectHeader"
+import ProjectRole from "../ProjectComponents/ProjectResponsiblity"
+import ProjectDescription from "../ProjectComponents/ProjectDescription"
+import ProjectGallery from "../ProjectComponents/ProjectGallery"
+import ProjectDownload from "../ProjectComponents/ProjectDownload"
 
 export default function ProjectPage({project}){
     return(

@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import AboutMe from './Pages/Home/Homescreen Components/AboutMe';
 import Portfolio from './Pages/Home/Homescreen Components/Portfolio';
-import ProjectPage from './Pages/Home/Projects/ProjectPage.jsx';
+import ProjectPage from './Pages/Home/Projects/ProjectPage/ProjectPage.jsx';
 import { ProjectOrder as proj } from './Pages/Home/Projects/ProjectData/ProjectOrder.js';
 import ProjectHero from './Pages/Home/Homescreen Components/ProjectHeroHS.jsx';
 import HomeVar from './Pages/Home/Home Scripts/HomeVar.js';

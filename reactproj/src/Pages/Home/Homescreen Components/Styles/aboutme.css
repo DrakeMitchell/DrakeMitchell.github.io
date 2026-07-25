@@ -1,0 +1,25 @@
+#about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;  /* Text left, Image right */
+  align-items: center;
+  padding-right: 15%;
+  padding-left:15%;
+
+  justify-content: space-between;
+}
+
+.about-text p{
+    color:#fff;
+    font-size: 20px;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+.about-links{
+   display:flex;
+   align-items: center;
+   gap: 150px;
+   padding-right: 25%;
+   padding-left:30%;
+}
+

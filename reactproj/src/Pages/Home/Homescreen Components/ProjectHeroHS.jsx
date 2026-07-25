@@ -5,6 +5,7 @@ import {
     Route,
     Link,
 } from "react-router-dom";
+import "./Styles/portfoliohero.css"
 
 export default function ProjectHero({projects}){
         return(
@@ -40,32 +41,6 @@ export default function ProjectHero({projects}){
                         <img alt="Static Badge" src={item.badge} height="50"/>
                     </span>
                 ))}
-
-
-
-
-
-                 
-                {/* <!-- Gator Hucker --> */}
-                {/*<span class="Games">
-                    <strong id="GameTitle">Gator Hucker</strong>
-                    <br/>
-                    <a href="/projects/Gator Hucker">
-                        <img src="./Thumbnails/GHuck_Thumbnail.png" height = "300" width = "450"/>
-                    </a>
-                    <br/>
-                    <p class="Desc">
-                        Eight Player fully online Team Deathmatch or Free For All game built in Unreal Engine 5.<br/>
-                        Play as Alien Alligators with an array of fun abilities in this cartoony and casual "Hero-shooter"!
-                    </p>
-                    <br/>
-                    <a href="/projects/Gator Hucker">
-                        <img alt="Static Badge" src="./Project Badges/see-more....svg"/>
-                    </a>
-                    <br/>
-                    <img alt="Static Badge" src="./Project Badges/unreal-5-c++-&-blueprints.svg" height="50"/>
-                </span> */}
-
             </section>
         )
 

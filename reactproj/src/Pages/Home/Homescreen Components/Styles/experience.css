@@ -1,0 +1,25 @@
+
+.education-section{
+    color: white;
+    font-size: 20px;
+}
+
+#skills-text strong{
+    color:#8ba9da;
+    font-size:25px;
+}
+
+#resume button:hover{
+    background-color: #7a6eac;
+}
+
+#resume button{
+    text-align: center;
+    background-color: var(--Secondary-BG);
+    border-width: 3px;
+    border-color: #B7B4B8;
+    width: 6em;
+    height: 5em;
+    color: white;
+    font-size: 20px;
+}

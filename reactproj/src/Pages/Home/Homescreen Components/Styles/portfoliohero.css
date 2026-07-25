@@ -1,0 +1,67 @@
+.btn {
+    text-align: center;
+    background-color: var(--Secondary-BG);
+    border-width: 3px;
+    border-color: #B7B4B8;
+    width: 6em;
+    height: 2em;
+    color: white;
+    font-size: 30px;
+    margin-right: 2.5em;
+
+}
+
+.btn:hover{
+  background-color: #7a6eac;
+}
+
+#projects img{
+    max-width: 100%;
+}
+
+.Games {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    background-color: #4378CC;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C5C68;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.Software {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    background-color: #7a6eac;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C5C68;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.Games strong{
+    font-size:35px;
+    font-family: Doto;
+    font-weight: bolder;
+}
+.Software strong{
+    font-size:35px;
+    font-family: Doto;
+    font-weight: bolder;
+}
+
+.Desc{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-size: 1.2em;
+    
+}
