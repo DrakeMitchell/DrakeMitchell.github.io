@@ -15,7 +15,7 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    
+    z-index: 1000;
     padding: 0 2rem;
     background-color: var(--Secondary-BG);
     
@@ -54,7 +54,8 @@ header .nav-btn{
     header .nav-btn{
         visibility: visible;
         opacity: 1;
-        position: 0 1rem;
+        padding: 0 1rem;
+        z-index: 1001;
     }
 
     header nav{
@@ -71,6 +72,7 @@ header .nav-btn{
         gap: 1.5rem;
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: 1000;
     }
 
     header .responsive_nav{
