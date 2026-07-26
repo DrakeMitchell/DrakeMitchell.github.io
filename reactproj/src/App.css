@@ -1,44 +1,47 @@
-html {
-    scroll-behavior: smooth;
-}
-
+/* =============================================
+   1. FONT IMPORTS
+   ============================================= */
 @font-face {
     font-family: 'Doto';
     src: url("../../Doto-SemiBold.ttf");
 }
 
-:root{
-  --Primary-BG: #46494C;
-  --Secondary-BG: #3D5DBA;
+/* =============================================
+   2. ROOT VARIABLES
+   ============================================= */
+:root {
+    --Primary-BG: #46494C;
+    --Secondary-BG: #3D5DBA;
+    --text-accent: #8ba9da;
+    --heading-accent: #4d86e2;
+    --border-light: #ddd;
+    --bg-section: #333;
 }
 
+/* =============================================
+   3. GLOBAL RESETS & BASE STYLES
+   ============================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #46494C;
+    background-color: var(--Primary-BG);
     color: #333;
+    line-height: 1.6;
 }
 
-section {
-    text-align: center;
-    align-content: center;
-    padding: 2em;
-    background: #B7B4B8;
-    border-radius: 0.5em;
-    color: white;
-    background-color: #333;
-}
-
-li {
-    font-size:20px;
-    color: #8ba9da;
-}
-
-h1{
+/* =============================================
+   4. TEXT
+   ============================================= */
+h1 {
     font-family: Doto;
     font-size: 60px;
     color: white;
@@ -46,56 +49,134 @@ h1{
 }
 
 h2 {
-    color: #4d86e2;
-    border-bottom: 2px solid #ddd;
     font-size: 40px;
+    color: var(--heading-accent);
+    border-bottom: 2px solid var(--border-light);
     padding-bottom: 0.3em;
 }
 
+li {
+    font-size: 20px;
+    color: var(--text-accent);
+}
 
-
-.role-text p{
-    color:#fff;
-    font-size: 25px;
+/* =============================================
+   5. DISPLAY/LAYOUT
+   ============================================= */
+section {
     text-align: center;
-    white-space: pre-wrap;
+    padding: 2em;
+    background-color: var(--bg-section);
+    color: white;
 }
 
-#GameTitle{
-    color:white;
-    font-size: 50px;
-}
-
-#title {
-    font-family: Doto;
-    font-size: 60px;
-    color:white;
-    text-align: center;
-}
-
-#genre {
-    border-bottom: 2px solid #ddd;
-}
-
-.GameDescription-text p{
-    color:#fff;
-    font-size: 25px;
-    white-space: pre-wrap;
-}
-
-#awards{
+#awards {
     display: flex;
     gap: 50px;
     margin-left: 30%;
 }
 
+/* =============================================
+   6. COMPONENT-SPECIFIC CLASSES
+   ============================================= */
 
-img{
+
+
+
+/* =============================================
+   7. ELEMENT-SPECIFIC IDS
+   ============================================= */
+
+#genre {
+    border-bottom: 2px solid var(--border-light);
+}
+
+/* =============================================
+   8. MEDIA
+   ============================================= */
+img {
     max-width: 85%;
 }
 
+/* =============================================
+   9. MOBILE RESPONSIVENESS
+   ============================================= */
 
+/* Tablets and below */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 44px;
+    }
 
+    h2 {
+        font-size: 32px;
+    }
 
+    #GameTitle {
+        font-size: 38px;
+    }
 
- 
+    .role-text p,
+    .GameDescription-text p {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    #awards {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    img {
+        max-width: 90%;
+    }
+
+    section {
+        padding: 1em;
+    }
+}
+
+/* Phones */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    #title {
+        font-size: 32px;
+    }
+
+    #GameTitle {
+        font-size: 28px;
+    }
+
+    .role-text p,
+    .GameDescription-text p {
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 1.2em;
+    }
+
+    #awards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}

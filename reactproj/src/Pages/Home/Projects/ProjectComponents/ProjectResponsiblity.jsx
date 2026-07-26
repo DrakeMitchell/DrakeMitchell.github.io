@@ -1,3 +1,4 @@
+import "./Styles/projectresponsibility.css"
 export default function ProjectRole({contributions}){
     return(
         <section id="Responsibilities">
@@ -6,7 +7,7 @@ export default function ProjectRole({contributions}){
                 {contributions && contributions.length > 0 && contributions.map((item,index) => (
                     <div key={index}>
                         <p>• {item}
-                        </p>
+                        </p><br/>
                     </div>
                 ))}
             </div>

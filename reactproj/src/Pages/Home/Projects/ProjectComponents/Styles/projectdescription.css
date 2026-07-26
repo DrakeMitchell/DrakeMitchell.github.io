@@ -1,0 +1,31 @@
+.GameDescription-text p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+.GameDescription-text img{
+    max-width: 50%;
+}
+
+#special p{
+    font-size: 25px;
+}
+
+/* =============================================
+   9. MOBILE RESPONSIVENESS
+   ============================================= */
+
+/* Tablets and below */
+@media only screen and (max-width: 1024px) {
+    .GameDescription-text p {
+        text-align: left;
+        
+    }
+
+    .GameDescription-text img{
+        max-width: 100%;
+    }
+
+
+}

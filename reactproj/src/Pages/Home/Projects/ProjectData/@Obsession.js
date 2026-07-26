@@ -18,10 +18,9 @@ export const Obsession = {
 
     //Description
     desc:[
-        `Play as an up-and-coming streamer/youtuber!
-        You must manage the time throughout the day to keep yourself healthy, and keep your subscribers happy.`,
+        `Play as an up-and-coming streamer/youtuber!\nYou must manage the time throughout the day to keep yourself healthy, and keep your subscribers happy.`,
         ``,
-        `However, some fans are a bit too much, can you keep your cool when the strange things and creepy messages start coming?`,
+        `\nHowever, some fans are a bit too much, can you keep your cool when the strange things and creepy messages start coming?`,
     ],
     img:[
         "/Games/Obsession/@Obsession_IntroPhoto.png", "/Games/Obsession/@Obession_Computer1.png", 
@@ -35,8 +34,7 @@ export const Obsession = {
 
     //Home Screen Hero
     thumbnail:"/Thumbnails/@Obsession_Thumbnail.png",
-    shortDesc:`2D Life Simulator game built in Unity Game Engine. 
-    Play through the daily life as a Streamer/Youtuber, but beware of increasingly obsessed fans!`,
+    shortDesc:`2D Life Simulator game built in Unity Game Engine.\nPlay through the daily life as a Streamer/Youtuber, but beware of increasingly obsessed fans!`,
     badge:"./Project Badges/unity-csharp.svg",
     url:"/projects/@Obsession",
     type:"Games",

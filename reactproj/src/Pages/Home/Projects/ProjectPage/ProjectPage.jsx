@@ -6,6 +6,7 @@ import ProjectGallery from "../ProjectComponents/ProjectGallery"
 import ProjectDownload from "../ProjectComponents/ProjectDownload"
 
 export default function ProjectPage({project}){
+    window.scrollTo(0, 0);
     return(
         <>
         <ProjectHeader 

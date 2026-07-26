@@ -21,6 +21,7 @@ export const Awwmageddon={
     desc:[
         `Assume the position of a pair of genius alien overlords experimenting with a dangerous monster!`,        
         `In the game, you’ll hover around the Kaijuwu using cat toys to guide the monster around a city, reveling as it destroys everything in its path.`,
+        ``
     ],
     img:[
         "/Games/Awwmageddon/AwwMageddon-Menu.png", "/Games/Awwmageddon/Awwmageddon-Lazer.png", "/Games/Awwmageddon/Awwmageddon-Points.png"
@@ -34,8 +35,7 @@ export const Awwmageddon={
 
     //Home Screen Hero
     thumbnail:"./Thumbnails/AwwMag_Thumbnail.png",
-    shortDesc:`3D city destruction game made in Unreal Engine 5 utlizing the AI behavior tree.
-                Attempt to control the (incredibly) cute and (incredibly) destructive Kaijuwu to destroy the city!`,
+    shortDesc:`3D city destruction game made in Unreal Engine 5 utlizing the AI behavior tree.\n\nAttempt to control the (incredibly) cute and (incredibly) destructive Kaijuwu to destroy the city!`,
     badge:"./Project Badges/unreal-5-blueprints.svg",
     url:"/projects/Awwmageddon",
     type:"Games",

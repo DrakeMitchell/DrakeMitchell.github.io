@@ -15,8 +15,7 @@ export const FullStar = {
     projectLength:"2 Weeks",
 
     //Description
-    desc:[`Full Star is a physics based top down game created in Godot with the objective to collect all of the star pieces in order to become a "Full Star" 
-        All while fighting the gravity of planets and other objects`,
+    desc:[`Full Star is a physics based top down game created in Godot with the objective to collect all of the star pieces in order to become a "Full Star".\n\nAll while fighting the gravity of planets and other objects`,
 
         `Follow the constellation and avoid being sucked into any planets to complete your star!`
     ],
@@ -26,8 +25,7 @@ export const FullStar = {
 
     //Home Screen Hero
     thumbnail:"/Thumbnails/Full Star_Logo.png",
-    shortDesc:`2D Physics Movement game built in Godot, made as part of a 2 week long "Game Jam"
-                Collect the missing pieces of your Star while avoiding obstacles and navigating gravity!`,
+    shortDesc:`2D Physics Movement game built in Godot, made as part of a 2 week long "Game Jam".\n\nCollect the missing pieces of your Star while avoiding obstacles and navigating gravity!`,
     badge:"./Project Badges/godot-gdscript.svg",
     url:"/projects/Full Star",
     type:"Games",

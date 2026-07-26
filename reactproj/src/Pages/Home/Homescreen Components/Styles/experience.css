@@ -1,25 +1,60 @@
-
+/* =============================================
+   6. COMPONENT-SPECIFIC CLASSES
+   ============================================= */
 .education-section{
     color: white;
     font-size: 20px;
 }
+
+/* =============================================
+   7. ELEMENT-SPECIFIC IDS
+   ============================================= */
 
 #skills-text strong{
     color:#8ba9da;
     font-size:25px;
 }
 
-#resume button:hover{
+.download:hover{
     background-color: #7a6eac;
 }
 
-#resume button{
+.download{
     text-align: center;
     background-color: var(--Secondary-BG);
     border-width: 3px;
     border-color: #B7B4B8;
-    width: 6em;
-    height: 5em;
+    width: 10em;
+    height: 2em;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: Doto;
+}
+
+#education-text{
+    font-size: 30px;
+}
+
+
+#university{
+    font-size: 40px;
+    color:#8ba9da;
+}
+
+#skills-text{
+    font-size:25px;
+}
+#skills-text strong{
+    font-size:30px;
+}
+
+
+/* =============================================
+   9. MOBILE RESPONSIVENESS
+   ============================================= */
+
+@media only screen and (max-width: 1024px){
+    #university{
+        font-size: 35px;
+    }
 }

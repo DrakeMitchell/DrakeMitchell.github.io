@@ -1,3 +1,5 @@
+import "./Styles/projectdescription.css"
+
 export default function ProjectDescription({
     title,
     desc,
@@ -12,17 +14,18 @@ export default function ProjectDescription({
                 {!special && desc && desc.length > 0 && desc.map((item, index) => (
                     <div key={index}>
                         <p> {item}</p>
-                        {index === 0 && img[0] && <img src={img[0]} width="40%"/>}
-                        {index === 1 && img[1] && <img src={img[1]} width="40%"/>}
-                        {index === 2 && img[2] && <img src={img[2]} width="40%"/>}
+                        {index === 0 && img[0] && <img src={img[0]} />}
+                        {index === 1 && img[1] && <img src={img[1]} />}
+                        {index === 2 && img[2] && <img src={img[2]} />}
+                        {index === 3 && img[3] && <img src={img[3]} />}
                     </div>
                 ))}
 
                 
             </div>
-            {special && <section>
+            {special && <section id="special">
                     <h2>L-System Input Explanation</h2>
-                    <p><strong>Techincal explanation for Tree creation: </strong></p><br/>
+                    <p><strong>Techincal explanation for Tree creation: </strong><br/>
                     Rotation Matrices: <br/>
                     RU(α) =
                     [ (cos α, sin α, 0),<br/>
@@ -51,9 +54,9 @@ export default function ProjectDescription({
                     <p></p>
                     [ Open Branch <br/>
                     ] Close Branch <br/>
-                
-                
-                <p>Built in Demo tree uses the input:<br/>
+                </p>
+                <br/>
+                <p>Built-in Demo tree uses the input:<br/>
                     F[+F]/F[-F]*F^F!F[+F[+F]/F[-F]*F^F!F]/F[+F]/F[-F]*F^F!F[-F[+F]/F[-F]*F^F!F]*F^F!F[+F]/F[-F]*F^F!F[+F[+F]/F[-F]*F^F!F]/F[+ <br/>
                     F]/F[-F]*F^F!F[-F[+F]/F[-F]*F^F!F]*F^F!F[-F[+F]/F[-F]*F^F!F]/F[+F]/F[-F]*F^F!F[+F[+F]/F[-F]*F^F!F]/F[+F]/F[-F]*F^F!F[-F[+F]/F[-F]*F^F!F]*F^</p>
                 

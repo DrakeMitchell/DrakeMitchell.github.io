@@ -14,7 +14,7 @@ export default function ProjectHero({projects}){
                     
                     {/* <!-- List from most to least important tabs for Personal, Software, Game Dev --> */}
                     <div>
-                        <button className= "btn btnAll" onClick={All} id="All" height = "100" width="100">All</button>
+                        <button className= "btn btnAll" onClick={All} id="All">All</button>
                         <button className= "btn btnGame" onClick={Games}>Game Dev</button>
                         <button className= "btn btnSoftware" onClick={Software}>Software</button>
                         <button className= "btn btnSolo" onClick={Solo}>Solo</button>
@@ -23,7 +23,7 @@ export default function ProjectHero({projects}){
 
 
                 {projects && projects.length > 0 && projects.map((item, index) => (
-                    <span key={index} class={item.type}>
+                    <span key={index} class={`hero-card ${item.type}`}>
                         <strong id="GameTitle">{item.title}</strong>
                         <br/>
                         <Link to={item.url}>

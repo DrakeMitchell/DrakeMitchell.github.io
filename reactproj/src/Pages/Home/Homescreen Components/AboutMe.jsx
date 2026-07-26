@@ -7,20 +7,19 @@ export default function AboutMe({data}){
         
         <div id="about">
             <div class="about-text">
+                <br/>
                 <p>{data.aboutMe}</p>
             </div>
-
-            <div class="about-image">
-                <img src={data.aboutMeImg} width="200" height="350" alt="Drake M" />
-            </div>
+            <img class="about-image2" src={data.aboutMeImg} width="200" height="350" alt="Drake M" />
         </div>
         <br/>
         <div class ="about-links">
-            <a href="mailto:drakefmitchell@gmail.com"><img src="./Footer-Icons/Gmail_icon.png" height="64" width="64"/></a>
-
-            <a href="https://www.linkedin.com/in/drake-mitchell/"><img src="./Footer-Icons/Linkedin_Icon.png" height="64" width="64"/></a>
-            <a href="https://github.com/DrakeMitchell"><img src="./Footer-Icons/Github_Icon.png" height="64" width="64"/></a>
-            <a href="https://severedx.itch.io/"><img src="./Footer-Icons/Itch_Icon.png" height="64" width="64"/></a>
+            <a href="mailto:drakefmitchell@gmail.com"><img src="./Footer-Icons/Gmail_icon.png" /></a>
+            
+            <a href="https://www.linkedin.com/in/drake-mitchell/"><img src="./Footer-Icons/Linkedin_Icon.png" /></a>
+            
+            <a href="https://github.com/DrakeMitchell"><img src="./Footer-Icons/Github_Icon.png" /></a>
+            <a href="https://severedx.itch.io/"><img src="./Footer-Icons/Itch_Icon.png" /></a>
         </div> 
     </section>
     )

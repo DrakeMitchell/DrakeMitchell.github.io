@@ -1,3 +1,59 @@
+/* =============================================
+   4. TEXT
+   ============================================= */
+
+
+.Desc{
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    font-size: 1.2em;
+    
+}
+/* =============================================
+   5. DISPLAY/LAYOUT
+   ============================================= */
+
+#projects img{
+    max-width: 100%;
+}
+
+#GameTitle {
+    color: white;
+    font-size: 60px;
+}
+
+.hero-card{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    background-color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4C5C68;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.Games {
+    background-color: #4378CC;
+}
+
+.Software {
+    background-color: #7a6eac;
+}
+
+.hero-card strong{
+    font-size:35px;
+    font-family: Doto;
+    font-weight: bolder;
+}
+
+/* =============================================
+   6. COMPONENT-SPECIFIC CLASSES
+   ============================================= */
 .btn {
     text-align: center;
     background-color: var(--Secondary-BG);
@@ -15,53 +71,49 @@
   background-color: #7a6eac;
 }
 
-#projects img{
-    max-width: 100%;
-}
 
-.Games {
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
-    background-color: #4378CC;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #4C5C68;
-    margin-bottom: 1em;
-    margin-right: 1em;
-    color: white;
-    font-size: 20px;
-    border-radius: 50px;
-}
 
-.Software {
-    display: inline-block;
-    width: 45%;
-    vertical-align: top;
-    background-color: #7a6eac;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #4C5C68;
-    margin-bottom: 1em;
-    margin-right: 1em;
-    font-size: 20px;
-    border-radius: 50px;
-}
 
-.Games strong{
-    font-size:35px;
-    font-family: Doto;
-    font-weight: bolder;
-}
-.Software strong{
-    font-size:35px;
-    font-family: Doto;
-    font-weight: bolder;
-}
 
-.Desc{
-    margin-top: 0.1em;
-    margin-bottom: 0.1em;
-    font-size: 1.2em;
-    
+
+
+/* =============================================
+   9. MOBILE RESPONSIVENESS
+   ============================================= */
+/* Tablets and below */
+@media only screen and (max-width: 1024px) {
+    .hero-card{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .Solo{
+        width: 90%;
+        
+    }
+
+    .hero-card strong{
+        font-size:45px;
+        font-family: Doto;
+        font-weight: bolder;
+    }
+
+    #GameTitle {
+        color: white;
+        font-size: 75px;
+    }
+
+    .Desc {
+        padding-right:5%;
+        padding-left: 5%;
+    }
+
+    .btn{
+        margin-right: .5em;
+        width: 5em;
+        height: 3em;
+        font-size: 25px;
+    }
+
+
 }

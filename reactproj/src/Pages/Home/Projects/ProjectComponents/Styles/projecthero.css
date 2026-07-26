@@ -1,0 +1,9 @@
+.about-text strong{
+    color:var(--text-accent);
+    font-size: 30px;
+}
+.about-text p{
+    font-size: 25px;
+}
+
+

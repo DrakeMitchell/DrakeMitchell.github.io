@@ -1,26 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-:root{
-  --Primary-BG: #46494C;
-  --Secondary-BG: #3D5DBA; 
-}
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    z-index: 1000;
-    padding: 0 2rem;
-    background-color: var(--Secondary-BG);
-    
-}
-
+/* =============================================
+   4. TEXT
+   ============================================= */
 nav{
     text-align: center;
     font-size: 30px;
@@ -38,6 +18,20 @@ nav a:hover{
     color:black;
 }
 
+/* =============================================
+   5. DISPLAY/LAYOUT
+   ============================================= */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1000;
+    padding: 0 2rem;
+    background-color: var(--Secondary-BG);
+    
+}
+
 header .nav-btn{
     padding: 12px 20px;
     cursor: pointer;
@@ -50,6 +44,9 @@ header .nav-btn{
     font-size: 20px;
 }
 
+/* =============================================
+   9. MOBILE RESPONSIVENESS
+   ============================================= */
 @media only screen and (max-width: 1024px){
     header .nav-btn{
         visibility: visible;

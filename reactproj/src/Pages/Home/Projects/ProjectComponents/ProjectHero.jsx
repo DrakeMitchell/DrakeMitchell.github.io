@@ -1,3 +1,4 @@
+import "./Styles/projecthero.css"
 export default function ProjectHero({
     title,
     poster,
@@ -19,14 +20,14 @@ export default function ProjectHero({
 
             <div id="about">
                 <div class="about-text">
-                    <p>{shortDesc}</p>
-                    {releaseDate && <p><strong>Released:</strong> {releaseDate}</p>}<br/>
-                    {studioName && <p><strong>Studio:</strong> {studioName}</p>}<br/>
-                    {teamSize && <p><strong>Team Size:</strong> {teamSize}</p>}<br/>
-                    {platforms && <p><strong>Platorm(s):</strong> {platforms}</p>}<br/>
-                    {engine && <p><strong>Engine:</strong> {engine}</p>}<br/>
-                    {projectLength && <p><strong>Project Length:</strong> {projectLength}</p>}<br/>
-                    {responsiblities && <p><strong>Main Responsibilites:</strong></p>}<br/> 
+                    <p class="short-desc">{shortDesc}</p><br/>
+                    {releaseDate && <p><strong>Released:</strong> {releaseDate}</p>}
+                    {studioName && <p><strong>Studio:</strong> {studioName}</p>}
+                    {teamSize && <p><strong>Team Size:</strong> {teamSize}</p>}
+                    {platforms && <p><strong>Platorm(s):</strong> {platforms}</p>}
+                    {engine && <p><strong>Engine:</strong> {engine}</p>}
+                    {projectLength && <p><strong>Project Length:</strong> {projectLength}</p>}
+                    {responsiblities && <p><strong>Main Responsibilites:</strong></p>} 
                     {responsiblities && responsiblities.length > 0 && responsiblities.map((item, index) => (
                         <div key={index}>
                             <li><p>{item}</p></li><br/>
@@ -36,7 +37,7 @@ export default function ProjectHero({
 
                 </div>
                 <div class="about-image">
-                    <img src={poster} width = "150%"/>
+                    <img src={poster}/>
                 </div>
                 
             </div>

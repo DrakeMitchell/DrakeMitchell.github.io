@@ -1,9 +1,6 @@
-@font-face {
-    font-family: 'Doto';
-    src: url("../../../../../../Doto-SemiBold.ttf");
-}
-
-
+/* =============================================
+   4. TEXT
+   ============================================= */
 #genre {
     font-size:40px;
     font-family: Doto;
@@ -11,8 +8,20 @@
 #title{
     font-size:75px;
     font-family: Doto;
+   
 }
 #subtitle{
     font-size: 40px;
     font-family: Doto;
+     word-wrap:none;
+}
+
+/* =============================================
+   9. MOBILE RESPONSIVENESS
+   ============================================= */
+
+@media only screen and (max-width: 1024px) {
+    #subtitle{
+        font-size: 30px;
+    }
 }

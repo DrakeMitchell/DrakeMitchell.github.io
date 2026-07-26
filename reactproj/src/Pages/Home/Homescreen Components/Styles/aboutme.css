@@ -1,3 +1,29 @@
+
+/* =============================================
+   4. Text
+   ============================================= */
+.about-text p{
+    color:#fff;
+    font-size: 20px;
+    text-align: left;
+    white-space: pre-wrap;
+}
+
+
+/* =============================================
+   5. DISPLAY/LAYOUT
+   ============================================= */
+.about-links{
+   display:inline-flex;
+   align-items: center;
+   gap:15%;
+
+}
+
+.about-links img{
+  max-width: 64px;
+}
+  
 #about {
   display: grid;
   grid-template-columns: 2fr 1fr;  /* Text left, Image right */
@@ -8,18 +34,18 @@
   justify-content: space-between;
 }
 
-.about-text p{
-    color:#fff;
-    font-size: 20px;
-    text-align: left;
-    white-space: pre-wrap;
-}
+/* =============================================
+   9. MOBILE RESPONSIVENESS
+   ============================================= */
+/*Phones and Tablets*/
+@media only screen and (max-width: 1024px) {
 
-.about-links{
-   display:flex;
-   align-items: center;
-   gap: 150px;
-   padding-right: 25%;
-   padding-left:30%;
+  #about{
+    padding-right: 5%;
+    padding-left: 5%;
+    display:flex;
+    flex-direction: column;
+  }
+
 }
 
