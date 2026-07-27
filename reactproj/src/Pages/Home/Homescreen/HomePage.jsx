@@ -12,6 +12,7 @@ import { ProjectOrder} from "../Projects/ProjectData/ProjectOrder";
 export default function Home(){
     return(
         <>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"></meta>
         <Header/>
         <AboutMe data={HomeVar}/>
         <Experience/>

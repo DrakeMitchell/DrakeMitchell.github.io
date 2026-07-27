@@ -54,6 +54,15 @@
 /* =============================================
    6. COMPONENT-SPECIFIC CLASSES
    ============================================= */
+   
+.btn-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+}   
+   
 .btn {
     text-align: center;
     background-color: var(--Secondary-BG);
@@ -64,6 +73,9 @@
     color: white;
     font-size: 30px;
     margin-right: 2.5em;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -108,12 +120,31 @@
         padding-left: 5%;
     }
 
-    .btn{
-        margin-right: .5em;
-        width: 5em;
-        height: 3em;
-        font-size: 25px;
+
+    .buttons-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 90%; /* full width on mobile */
+        margin-right: 0;
     }
 
+}
 
+@media only screen and (max-width: 648px) {
+    #GameTitle {
+        color: white;
+        font-size: 50px;
+        word-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #GameTitle {
+        color: white;
+        font-size: 45px;
+        word-wrap: wrap;
+    }
 }

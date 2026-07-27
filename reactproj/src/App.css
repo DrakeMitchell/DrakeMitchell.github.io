@@ -25,6 +25,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 1px solid red !important; */
 }
 
 html {
@@ -154,7 +155,7 @@ img {
     }
 
     #GameTitle {
-        font-size: 28px;
+        font-size: 8px;
     }
 
     .role-text p,

@@ -13,7 +13,7 @@ export default function ProjectHero({projects}){
                     <h2>Projects</h2>
                     
                     {/* <!-- List from most to least important tabs for Personal, Software, Game Dev --> */}
-                    <div>
+                    <div className="btn-wrapper">
                         <button className= "btn btnAll" onClick={All} id="All">All</button>
                         <button className= "btn btnGame" onClick={Games}>Game Dev</button>
                         <button className= "btn btnSoftware" onClick={Software}>Software</button>
