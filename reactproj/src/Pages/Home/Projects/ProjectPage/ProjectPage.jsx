@@ -24,7 +24,7 @@ export default function ProjectPage({project}){
        {!project.software && <ProjectGallery/>}
 
         {/* Special Sections */}
-        {project.downloadable && <ProjectDownload/>}
+        {project.downloadable && <ProjectDownload trailers={project.trailers} itchioURL={project.itchioURL} itchioEmbedURL={project.itchioEmbedURL} githubURL={project.githubURL} steamURL={project.steamURL} software={project.software}/>}
         </>
     )
 }

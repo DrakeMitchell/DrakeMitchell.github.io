@@ -50,6 +50,8 @@ export const GatorHucker ={
     downloadable:"true",
 
     //Links
-    githubLink:"",
-    itchioLink:""
+    githubURL:"",
+    itchioURL:"https://gatorillagames.itch.io/gator-hucker",
+    itchioEmbedURL:"https://itch.io/embed/4032432?dark=true",
+    steamURL:"https://store.steampowered.com/app/4646860/Gator_Hucker/",
 }

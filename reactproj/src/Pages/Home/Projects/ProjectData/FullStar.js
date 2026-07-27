@@ -39,8 +39,10 @@ export const FullStar = {
     ],
 
     //Links
-    githubLink:"",
-    itchioLink:""
+    githubURL:"https://github.com/DrakeMitchell/FullStar-325-FA24-Public",
+    itchioURL:"https://severedx.itch.io/full-star",
+    itchioEmbedURL:"https://itch.io/embed/3032970?linkback=true&amp;link_color=d48922",
+    steamURL:"",
 
 
 }

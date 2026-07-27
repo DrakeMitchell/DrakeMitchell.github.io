@@ -44,7 +44,7 @@ export const LSystem = {
 
 
     //Special Sections
-    downloadable:"",
+    downloadable:".",
     credits:"",
     awards:"",
     awardImg:[
@@ -61,8 +61,10 @@ export const LSystem = {
     ],
 
     //Links
-    githubLink:"",
-    itchioLink:""
+    githubURL:"https://github.com/DrakeMitchell/L-SystemTree",
+    itchioURL:"",
+    itchioEmbedURL:"",
+    steamURL:"",
 
 
 }

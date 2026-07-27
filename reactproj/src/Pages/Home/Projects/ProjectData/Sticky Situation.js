@@ -58,8 +58,10 @@ export const StickySituation = {
 
 
     //Links
-    githubLink:"",
-    itchioLink:"",
+    githubURL:"https://github.com/DrakeMitchell/Sticky-Situation",
+    itchioURL:"https://severedx.itch.io/sticky-situation",
+    itchioEmbedURL:"https://itch.io/embed/3256309?linkback=true&amp;link_color=2b7ff4&amp;border_color=be4292",
+    steamURL:"",
 
 
 }

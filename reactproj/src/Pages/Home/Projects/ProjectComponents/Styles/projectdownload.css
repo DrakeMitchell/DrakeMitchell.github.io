@@ -1,0 +1,71 @@
+/* #Dwnld{
+    font-size: 40px;
+    color: var(--text-accent);
+    border-bottom: none;
+} */
+
+.btn-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin: 1em 0;
+}   
+   
+.btn.Steam {
+    text-align: center;
+    background-color: var(--Secondary-BG);
+    border-width: 3px;
+    border-color: #B7B4B8;
+    width: 350px;
+    height: 150px;
+    color: white;
+    font-size: 30px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn.Github {
+    text-align: center;
+    background-color: var(--Secondary-BG);
+    border-width: 3px;
+    border-color: #B7B4B8;
+    width: 350px;
+    height: 150px;
+    color: white;
+    font-size: 30px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.Embed{
+    width: 650px;
+    word-wrap: wrap;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Embed{
+        width:450px;
+    }
+}
+@media only screen and (max-width: 648px) {
+    .Embed{
+        width:350px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .Embed{
+        width:250px;
+    }
+    .btn.Steam{
+        width:250px;
+    }
+}

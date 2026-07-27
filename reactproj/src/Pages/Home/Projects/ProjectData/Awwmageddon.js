@@ -40,6 +40,13 @@ export const Awwmageddon={
     url:"/projects/Awwmageddon",
     type:"Games",
 
+
+    trailers:[
+        "https://www.youtube.com/embed/e-K8TPjRHVQ?si=7TDPStkwjSZAlw2T"
+    ],
+
+
+
     awards:"yes",
     awardImg:["/Games/Awwmageddon/AwwMageddon_BestArt.png", "/Games/Awwmageddon/AwwMageddon_AudienceChoice.png"
     ],
@@ -47,6 +54,8 @@ export const Awwmageddon={
     credits:".",
     
     //Links
-    githubLink:"",
-    itchioLink:""
+    githubURL:"",
+    itchioURL:"https://claw-and-order-games.itch.io/awwmageddon",
+    itchioEmbedURL:"https://itch.io/embed/3161137?linkback=true&amp;link_color=52be34&amp;border_color=8e00de",
+    steamURL:"",
 }

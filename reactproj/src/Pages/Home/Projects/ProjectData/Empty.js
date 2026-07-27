@@ -50,8 +50,10 @@ export const Empty = {
     software:"",
 
     //Links
-    githubLink:"",
-    itchioLink:""
+    githubURL:"",
+    itchioURL:"",
+    itchioEmbedURL:"",
+    steamURL:"",
 
 
 }

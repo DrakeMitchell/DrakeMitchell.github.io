@@ -48,8 +48,10 @@ export const Obsession = {
     ],
 
     //Links
-    githubLink:"",
-    itchioLink:""
+    githubURL:"",
+    itchioURL:"https://austereinsomniac.itch.io/obsession",
+    itchioEmbedURL:"https://itch.io/embed/2322295",
+    steamURL:"",
 
 
 }
